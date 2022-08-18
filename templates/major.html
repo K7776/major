@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Internship-Major Project</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+ 
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href=" {{ url_for('static',filename = 'assets/vendor/aos/aos.css')  }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename = 'assets/vendor/bootstrap/css/bootstrap.min.css')  }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename = 'assets/vendor/bootstrap-icons/bootstrap-icons.css')  }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename = 'assets/vendor/boxicons/css/boxicons.min.css')  }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename = 'assets/vendor/glightbox/css/glightbox.min.css')  }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename = 'assets/vendor/remixicon/remixicon.css')  }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename = 'assets/vendor/swiper/swiper-bundle.min.css')  }}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{{ url_for('static',filename = 'assets/css/style.css')  }}" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+      <img src="{{ url_for('static',filename = 'assets/img/logo1.jpg')  }}" alt="HTML5 Icon" style="width:128px;height:128px;padding-right:10px;">
+
+      <h1 class="logo me-auto me-lg-0"><a href="/">Poornima Institute of Engineering and Technology<span>.</span></a></h1>
+
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto " href="/">Home</a></li>
+          <li><a class="nav-link scrollto" href="/minor">Minor Projects</a></li>
+          <li><a class="nav-link scrollto active" href="/major">Major Project</a></li>
+          <li><a class="nav-link scrollto " href="/gallery">Gallery</a></li>
+          <li><a class="nav-link scrollto " href="/resume">About Me</a></li>
+          <li><a class="nav-link scrollto" href="/contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center justify-content-center">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h1>Heart Attack Prediction<span>.</span></h1>
+          <h2>Major Project-Summer Internship-2022</h2>
+        </div>
+      </div>
+
+
+    </div>
+  </section><!-- End Hero -->
+
+  <section id="services" class="services" style="background-color:#FFFFDE;">
+    <div class="container" data-aos="fade-up">
+  <div class="section-title">
+    <h2>Major Project</h2>
+    <p>Heart Attack Dataset Ananlysis</p>
+  </div>
+  <div class="row py-5">
+          <div class="col-lg-6">
+            <a href="{{ url_for('static',filename = 'assets/img/plot1 (1).png')  }}">
+            <figure class="rounded p-3 bg-white shadow-sm">
+              <img src="{{ url_for('static',filename = 'assets/img/plot1 (1).png')  }}" alt="" class="w-100 card-img-top">
+              <figcaption class="p-4 card-img-bottom">
+                <h2 class="h3 font-weight-bold mb-2 font-italic">CHEST PAIN TYPE DISTRIBUTION</h2>
+
+              </figcaption>
+            </figure>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a href="{{ url_for('static',filename = 'assets/img/plot1 (2).png')  }}">
+            <figure class="rounded p-3 bg-white shadow-sm">
+              <img src="{{ url_for('static',filename = 'assets/img/plot1 (2).png')  }}" alt="" class="w-100 card-img-top">
+              <figcaption class="p-4 card-img-bottom">
+                <h2 class="h3 font-weight-bold mb-2 font-italic">GENDER(SEX) DISTRIBUTION</h2>
+
+              </figcaption>
+            </figure>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="row py-5">
+                <div class="col-lg-6">
+                  <a href="{{ url_for('static',filename = 'assets/img/plot1 (3).png')  }}">
+                  <figure class="rounded p-3 bg-white shadow-sm">
+                    <img src="{{ url_for('static',filename = 'assets/img/plot1 (3).png')  }}" alt="" class="w-100 card-img-top">
+                    <figcaption class="p-4 card-img-bottom">
+                      <h2 class="h3 font-weight-bold mb-2 font-italic">FASTING BLOOD SUGAR DISTRIBUTION</h2>
+
+                    </figcaption>
+                  </figure>
+                  </a>
+                </div>
+                <div class="col-lg-6">
+                  <a href="{{ url_for('static',filename = 'assets/img/plot1 (4).png')  }}">
+                  <figure class="rounded p-3 bg-white shadow-sm">
+                    <img src="{{ url_for('static',filename = 'assets/img/plot1 (4).png')  }}" alt="" class="w-100 card-img-top">
+                    <figcaption class="p-4 card-img-bottom">
+                      <h2 class="h3 font-weight-bold mb-2 font-italic">RESTING ELECTRODIAGNOGRAPHIC DISTRIBUTION</h2>
+
+                    </figcaption>
+                  </figure>
+                  </a>
+                </div>
+
+              </div>
+
+              <div class="row py-5">
+                      <div class="col-lg-6">
+                        <a href="{{ url_for('static',filename = 'assets/img/plot1 (5).png')  }}">
+                        <figure class="rounded p-3 bg-white shadow-sm">
+                          <img src="{{ url_for('static',filename = 'assets/img/plot1 (5).png')  }}" alt="" class="w-100 card-img-top">
+                          <figcaption class="p-4 card-img-bottom">
+                            <h2 class="h3 font-weight-bold mb-2 font-italic">EXERCISE INDUCED ANGINA</h2>
+
+                          </figcaption>
+                        </figure>
+                        </a>
+                      </div>
+                      <div class="col-lg-6">
+                        <a href="{{ url_for('static',filename = 'assets/img/plot1 (6).png')  }}">
+                        <figure class="rounded p-3 bg-white shadow-sm">
+                          <img src="{{ url_for('static',filename = 'assets/img/plot1 (6).png')  }}" alt="" class="w-100 card-img-top">
+                          <figcaption class="p-4 card-img-bottom">
+                            <h2 class="h3 font-weight-bold mb-2 font-italic">SLOPE of PEAK EXERCISE</h2>
+
+                          </figcaption>
+                        </figure>
+                        </a>
+                      </div>
+
+                    </div>
+    </section>
+
+
+
+    <section style="background-color:#B270A2";>
+
+<div class="container" data-aos="fade-up">
+      <div class="row py-5">
+        <div class="section-title">
+          <h2>Major Project</h2>
+          <p>Comaprision of Models</p>
+        </div>
+          <div class="col-lg-10 mx-auto">
+            <div class="card rounded shadow border-0">
+              <div class="card-body p-5 bg-white rounded">
+                <div class="table-responsive">
+                  <table id="example" style="width:100%" class="table table-striped table-bordered">
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Model_Name</th>
+                        <th>Accuracy</th>
+                        <th>Precision</th>
+                        <th>Recall</th>
+                        <th>F-Score</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1.</td>
+                        <td>Logistic Regression</td>
+                        <td>85.25 %</td>
+                        <td>78.34 %</td>
+                        <td>77.05 %</td>
+                        <td>76.93 %</td>
+                      </tr>
+                      <tr>
+                        <td>2.</td>
+                        <td>Decision Tree</td>
+                        <td>77.09 %</td>
+                        <td>78.34 %</td>
+                        <td>77.04 %</td>
+                        <td>76.930 %</td>
+                      </tr>
+                      <tr>
+                        <td>3.</td>
+                        <td>SVM</td>
+                        <td>77.04 %</td>
+                        <td>77.37 %</td>
+                        <td>77.04 %</td>
+                        <td>76.87 %</td>
+                      </tr>
+                      <tr>
+                        <td>4.</td>
+                        <td>Random_Forest</td>
+                        <td>86.88 %</td>
+                        <td>87.60 %</td>
+                        <td>86.88 %</td>
+                        <td>86.87 %</td>
+                      </tr>
+                      <tr>
+                        <td>5.</td>
+                        <td>K-Nearest Neighbour</td>
+                        <td>68.85 %</td>
+                        <td>68.88 %</td>
+                        <td>68.85 %</td>
+                        <td>68.70 %</td>
+                      </tr>
+                      <tr>
+                        <td>6.</td>
+                        <td>Naive Bayes</td>
+                        <td>78.68 %</td>
+                        <td>79.64 %</td>
+                        <td>78.68 %</td>
+                        <td>78.63 %</td>
+                      </tr>
+                      <tr>
+
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Major Project</h2>
+          <p>Election Prediction System</p>
+        </div>
+
+        <div class="row">
+          <h3><b>Supervised ML Models</b></h3>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><img src="{{ url_for('static',filename = 'assets/img/project2.png')  }}" alt="" class="w-100 card-img-top"></div>
+              <h4><a href="/logistic">Logistic Regression</a></h4>
+              <p>This model predicts election result on basis of logistic regression algorithm.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><img src="{{ url_for('static',filename = 'assets/img/project3.jpg')  }}" alt="" class="w-100 card-img-top"></div>
+              <h4><a href="/decision">Decision Tree</a></h4>
+              <p>This model predicts election result on basis of decision tree algorithm.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><img src="{{ url_for('static',filename = 'assets/img/project4.jpg')  }}" alt="" class="w-100 card-img-top"></div>
+              <h4><a href="/svm">Support Vector Machine</a></h4>
+              <p>This model predicts election result on basis of Support Vector algorithm.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><img src="{{ url_for('static',filename = 'assets/img/project4.jpg')  }}" alt="" class="w-100 card-img-top"></div>
+              <h4><a href="/random">Random Forest</a></h4>
+              <p>This model predicts election result on basis of Random Forest algorithm.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><img src="{{ url_for('static',filename = 'assets/img/project3.jpg')  }}" alt="" class="w-100 card-img-top"></div>
+              <h4><a href="/knn">K-Nearest Neighbour</a></h4>
+              <p>This model predicts election result on basis of KNN algorithm.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><img src="{{ url_for('static',filename = 'assets/img/project2.png')  }}" alt="" class="w-100 card-img-top"></div>
+              <h4><a href="/naive">Naive Bayes</a></h4>
+              <p>This model predicts election result on basis of Naive Bayes algorithm.</p>
+            </div>
+          </div>
+
+        </div>
+
+       
+
+      </div>
+    </section><!-- End Services Section -->
+
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Kalpit<span>.</span></h3>
+              <p>
+                Jaipur,Rajasthan <br>
+                India<br><br>
+                <strong>Phone:</strong> +919354274824<br>
+                <strong>Email:</strong> 2020pietcskalpit88@poornima.org<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/minor">Minor Projects</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/major">Major Project</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/gallery">Gallery</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/contact">Contact</a></li>
+            </ul>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Any Suggestions</h4>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Submit">
+            </form>
+
+          </div>
+          
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Kalpit Sharma</span></strong>
+      </div>
+      <div class="credits">
+
+        Designed by <a href="/resume">Kalpit Sharma</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{{ url_for('static',filename = 'assets/vendor/purecounter/purecounter_vanilla.js')  }}"></script>
+  <script src="{{ url_for('static',filename = 'assets/vendor/aos/aos.js')  }}"></script>
+  <script src="{{ url_for('static',filename = 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js')  }}"></script>
+  <script src="{{ url_for('static',filename = 'assets/vendor/glightbox/js/glightbox.min.js')  }}"></script>
+  <script src="{{ url_for('static',filename = 'assets/vendor/isotope-layout/isotope.pkgd.min.js')  }}"></script>
+  <script src="{{ url_for('static',filename = 'assets/vendor/swiper/swiper-bundle.min.js')  }}"></script>
+  <script src="{{ url_for('static',filename = 'assets/vendor/php-email-form/validate.js')  }}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{ url_for('static',filename = 'assets/js/main.js')  }}"></script>
+
+</body>
+
+</html>

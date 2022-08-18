@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Internship-Home</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href=" {{ url_for('static',filename = 'assets/vendor/aos/aos.css')  }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename = 'assets/vendor/bootstrap/css/bootstrap.min.css')  }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename = 'assets/vendor/bootstrap-icons/bootstrap-icons.css')  }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename = 'assets/vendor/boxicons/css/boxicons.min.css')  }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename = 'assets/vendor/glightbox/css/glightbox.min.css')  }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename = 'assets/vendor/remixicon/remixicon.css')  }}" rel="stylesheet">
+  <link href="{{ url_for('static',filename = 'assets/vendor/swiper/swiper-bundle.min.css')  }}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{{ url_for('static',filename = 'assets/css/style.css')  }}" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+      <img src="{{ url_for('static',filename = 'assets/img/logo1.jpg')  }}" alt="HTML5 Icon" style="width:128px;height:128px;padding-right:10px;">
+
+      <h1 class="logo me-auto me-lg-0"><a href="/">Poornima Institute of Engineering and Technology<span>.</span></a></h1>
+
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="/">Home</a></li>
+          <li><a class="nav-link scrollto" href="/minor">Minor Projects</a></li>
+          <li><a class="nav-link scrollto" href="/major">Major Project</a></li>
+          <li><a class="nav-link scrollto " href="/gallery">Gallery</a></li>
+          <li><a class="nav-link scrollto " href="/resume">About Me</a></li>
+
+          <li><a class="nav-link scrollto" href="/contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center justify-content-center">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h1>Machine Learning and Data Science<span>.</span></h1>
+          <h2>Summer Internship-2022</h2>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="{{ url_for('static',filename = 'assets/img/ml.jpg')  }}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+
+            <h3>What is Machine Learning?</h3>
+            <p class="fst-italic">
+              Machine Learning is a field of study that gives computers the capability to learn without being explicitly programmed. Machine Learning is applied using Algorithms to process the data and get trained for delivering future predictions without human intervention. The inputs for Machine Learning are the set of instructions or data or observations. Machine Learning is used extensively by companies like Facebook, Google, etc.
+            </p>
+            <br ><br>
+            <h3>What is Data Science?</h3>
+            <p>
+              It is the complex study of the large amounts of data in a company or organization’s repository. This study includes where the data has originated from, the actual study of its content matter, and how this data can be useful for the growth of the company in the future. The data relating to an organization is always in two forms: Structured or unstructured. When we study this data, we get valuable information about business or market patterns which helps the business have an edge over the other competitors since they’ve increased their effectiveness by recognizing patterns in the data set.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features" style="background-color:#9ED2C6";>
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <h1 style="padding-bottom:2%; color:black;"><b>Explore Machine Learning</b></h1>
+          <div class="image col-lg-6" style='background-image: url("{{ url_for('static',filename = 'assets/img/features.jpg')  }}");' data-aos="fade-right"></div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+
+            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-receipt"></i>
+              <a href="https://www.javatpoint.com/supervised-machine-learning"><h4 class="h44">Supervised Machine Learning</h4></a>
+              <p>
+                Supervised learning is the types of machine learning in which machines are trained using well "labelled" training data, and on basis of that data, machines predict the output.
+              </p>
+
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-cube-alt"></i>
+              <a href="https://www.javatpoint.com/unsupervised-machine-learning"><h4 class="h44">Unsupervised Machine Learning</h4></a>
+              <p>
+              Unsupervised learning is a type of machine learning in which models are trained using unlabeled dataset and are allowed to act on that data without any supervision.
+              </p>
+
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-images"></i>
+              <a href="https://www.javatpoint.com/semi-supervised-learning"><h4 class="h44">Semi-Supervised Machine Learning</h4></a>
+              <p>
+                Semi-supervised learning is an important category that lies between the Supervised and Unsupervised machine learning.
+              </p>
+
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-shield"></i>
+              <a href="https://www.geeksforgeeks.org/what-is-reinforcement-learning/"><h4 class="h44">Reinforcement Learning</h4></a>
+              <p>
+                Reinforcement learning is an area of Machine Learning. It is about taking suitable action to maximize reward in a particular situation.
+              </p>
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+
+
+
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Project</h2>
+      <p>Projects Developed</p>
+    </div>
+    <div class="row py-5">
+            <div class="col-lg-6">
+              <a href="/major">
+              <figure class="rounded p-3 bg-white shadow-sm">
+                <img src="{{ url_for('static',filename = 'assets/img/project.jpg')  }}" alt="" class="w-100 card-img-top">
+                <figcaption class="p-4 card-img-bottom">
+                  <h2 class="h3 font-weight-bold mb-2 font-italic">Major Project</h2>
+                  <p class="mb-0 text-small text-muted font-italic">An ELection Prediction System using all ML models.</p>
+                </figcaption>
+              </figure>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="/minor">
+              <figure class="rounded p-3 bg-white shadow-sm">
+                <img src="{{ url_for('static',filename = 'assets/img/project2.png')  }}" alt="" class="w-100 card-img-top">
+                <figcaption class="p-4 card-img-bottom">
+                  <h2 class="h3 font-weight-bold mb-2 font-italic">Minor Projects</h2>
+                  <p class="mb-0 text-small text-muted font-italic">Prediction using different Machine Learning Models </p>
+                </figcaption>
+              </figure>
+              </a>
+            </div>
+
+          </div>
+
+
+          <div class="separator my-3"></div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts" style :"background-color:#A084CF";>
+      <div class="container" data-aos="fade-up">
+
+        <div class="row no-gutters">
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
+          <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
+            <div class="content d-flex flex-column justify-content-center">
+              <h3>Internship at a Glance.</h3>
+              <p>
+                In this internship, we got to learn about Cores of Data Analytics & Data Science with Learning
+                Techniques. Machine Learning & Deep Learning are explained in detail with Robust Algorithm
+                Implementation, and, all these things are implemented using Python Scripting. Various Libraries like numpy,
+                pandas, matplotlib, seaborn, plotly, flask, scikit-learn. were used and discussed in detail.
+              </p>
+              <div class="row">
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-emoji-smile"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="47" data-purecounter-duration="2" class="purecounter"></span>
+                    <p><strong>Interns</strong> </p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-journal-richtext"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="2" class="purecounter"></span>
+                    <p><strong>Projects</strong> (Mini + Major)</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-clock"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="45" data-purecounter-duration="4" class="purecounter"></span>
+                    <p><strong>Duration of Internship</strong> (in days)</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-building"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="4" class="purecounter"></span>
+                    <p><strong>Industrial Visits</strong> </p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Kalpit Sharma<span>.</span></h3>
+              <p>
+                Jaipur,Rajasthan <br>
+                India<br><br>
+                <strong>Phone:</strong>+91 9354274824<br>
+                <strong>Email:</strong> 2020pietcskalpit88@poornima.org<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/minor">Minor Projects</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/major">Major Project</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/gallery">Gallery</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/contact">Contact</a></li>
+            </ul>
+          </div>
+
+
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Any Suggestions</h4>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Submit">
+            </form>
+
+          </div>
+          
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Kalpit Sharma</span></strong>
+      </div>
+      <div class="credits">
+
+        Designed by <a href="/">Kalpit Sharma</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{{ url_for('static',filename = 'assets/vendor/purecounter/purecounter_vanilla.js')  }}"></script>
+  <script src="{{ url_for('static',filename = 'assets/vendor/aos/aos.js')  }}"></script>
+  <script src="{{ url_for('static',filename = 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js')  }}"></script>
+  <script src="{{ url_for('static',filename = 'assets/vendor/glightbox/js/glightbox.min.js')  }}"></script>
+  <script src="{{ url_for('static',filename = 'assets/vendor/isotope-layout/isotope.pkgd.min.js')  }}"></script>
+  <script src="{{ url_for('static',filename = 'assets/vendor/swiper/swiper-bundle.min.js')  }}"></script>
+  <script src="{{ url_for('static',filename = 'assets/vendor/php-email-form/validate.js')  }}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{ url_for('static',filename = 'assets/js/main.js')  }}"></script>
+
+</body>
+
+</html>
